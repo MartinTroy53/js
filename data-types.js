@@ -8,7 +8,7 @@
 
 var string = "`1234567890--=!@#$%^&*()_++QWERTYUIOPDFGHJKLZXCVBNM";
 var name = "Odinaka";
-var email = 'chiemelie@gmail.com';
+var email = "chiemelie@gmail.com";
 
 /*
   NUMBERS
@@ -56,14 +56,14 @@ var devs = ["Mallon", "Chisom", "Adanna", "Henry", "Victor", "Promise"];
 
 // multiple data type
 var collection = [
-  "Chibuike",
-  20,
-  null,
-  undefined,
-  true,
-  false,
-  { school: "UNIZIK" },
-  ['banana', 'orange', 'apple']
+	"Chibuike",
+	20,
+	null,
+	undefined,
+	true,
+	false,
+	{ school: "UNIZIK" },
+	["banana", "orange", "apple"],
 ];
 
 /*
@@ -75,16 +75,16 @@ var collection = [
 */
 
 var person = {
-  name: "Chidimma",
-  age: 19,
-  married: true,
-  laptop: null,
-  friends: ["Xan", "Henry", "Victor"],
-  car: {
-    name: "beetle",
-    model: "2023",
-    color: "red",
-  },
+	name: "Chidimma",
+	age: 19,
+	married: true,
+	laptop: null,
+	friends: ["Xan", "Henry", "Victor"],
+	car: {
+		name: "beetle",
+		model: "2023",
+		color: "red",
+	},
 };
 
 /*
@@ -94,7 +94,7 @@ var person = {
 */
 
 var sayHello = function (name) {
-  return `Hello👋🏾, ${name}.`;
+	return `Hello👋🏾, ${name}.`;
 };
 
 sayHello("Emeka");

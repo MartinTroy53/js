@@ -1,11 +1,11 @@
 let office = {
-  name: "aicic",
-  employees: ["Mallon", "Chisom", "Adanna", "Henry", "Victor", "Promise"],
-  active: true,
-  length: 56,
-  calculateSalary: function () {
-    return 3000;
-  },
+	name: "aicic",
+	employees: ["Mallon", "Chisom", "Adanna", "Henry", "Victor", "Promise"],
+	active: true,
+	length: 56,
+	calculateSalary: function () {
+		return 3000;
+	},
 };
 
 let employees = ["Mallon", "Chisom", "Adanna", "Henry", "Victor", "Promise"];
@@ -22,13 +22,10 @@ console.log("First console logging", employees);
 
 // console.log("Adanna's index", adanna);
 
-employees.forEach(employe => {
+employees.forEach((employe) => {
 	const richKids = [];
 	if (employe === "Adanna" || employe === "Victor") {
-    richKids.push(employe);
-  }
+		richKids.push(employe);
+	}
 	console.log("Rich Kids", richKids);
 });
-
-
-

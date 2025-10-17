@@ -6,4 +6,4 @@ button.addEventListener("click", function () {
 	const inputValue = inputfield.value;
 	console.log("Input Value: ", inputValue);
 	return (outputfield.textContent = inputValue);
- });
+});
