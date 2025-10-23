@@ -44,8 +44,8 @@ const age = 13;
 
 if (age < 13) {
 	console.log("Child");
-} else if (age < 20) {
+} else (age < 20) 
 	console.log("Teenager");
-} else {
-	console.log("Adult");
-}
+// } else {
+// 	console.log("Adult");
+// }
