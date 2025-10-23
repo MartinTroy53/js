@@ -8,15 +8,17 @@ let office = {
 	},
 };
 
+// let employees = ["Mallon", "Chisom", "Adanna", "Henry", "Victor", "Promise"];
+// // console.log("First console logging", employees);
 let employees = ["Mallon", "Chisom", "Adanna", "Henry", "Victor", "Promise"];
+ const employee = employees.push("Odinaka");
+ const employe = employees.pop();
+console.log(employe);
 
-console.log("First console logging", employees);
-
-// employees.push("Odinaka");
-// employees.pop();
 // const employe = employees.forEach((employe) => {
 //   console.log(`Aicic ${employe} Student`);
 // });
+// let employees = ["Mallon", "Chisom", "Adanna", "Henry", "Victor", "Promise"];
 
 // const adanna = employees.indexOf("Adanna");
 
