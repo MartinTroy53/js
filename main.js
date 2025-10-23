@@ -10,10 +10,10 @@ let office = {
 
 // let employees = ["Mallon", "Chisom", "Adanna", "Henry", "Victor", "Promise"];
 // // console.log("First console logging", employees);
-let employees = ["Mallon", "Chisom", "Adanna", "Henry", "Victor", "Promise"];
- const employee = employees.push("Odinaka");
- const employe = employees.pop();
-console.log(employe);
+// let employees = ["Mallon", "Chisom", "Adanna", "Henry", "Victor", "Promise"];
+//  const employee = employees.push("Odinaka");
+//  const employe = employees.pop();
+// console.log(employe);
 
 // const employe = employees.forEach((employe) => {
 //   console.log(`Aicic ${employe} Student`);
