@@ -107,7 +107,7 @@ let numbers = [1, 2, 3];
 
 let completeNumbers = [...numbers, 4, 5];
 
-console.log(completeNumbers);
+// console.log(completeNumbers);
 
 // console.log("Spread:", [...numbers, 4, 5]);
 
@@ -121,4 +121,4 @@ console.log(completeNumbers);
 //   Executes multiple expressions, returns the last.
 // */
 let val = (2 + 4, 3 + 7, 4 + 6);
-console.log("Comma operator:", val);
+// console.log("Comma operator:", val);
